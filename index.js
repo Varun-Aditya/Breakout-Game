@@ -104,12 +104,13 @@ function drawBricks() {
         if(c==0){ctx.fillStyle = "red"};
         if(c==1){ctx.fillStyle = "orange"};
         if(c==2){ctx.fillStyle = "yellow"};
-        if(c==3){ctx.fillStyle = "green"};
-        if(c==4){ctx.fillStyle = "blue"};
-        if(c==5){ctx.fillStyle = "purple"};
-        if(c==6){ctx.fillStyle = "#ff00e5"};
-        if(c==7){ctx.fillStyle = "brown"};
+        if(c==4){ctx.fillStyle = "green"};
+        if(c==5){ctx.fillStyle = "blue"};
+        if(c==6){ctx.fillStyle = "purple"};
+        if(c==7){ctx.fillStyle = "#ff00e5"};
+        if(c==8){ctx.fillStyle = "brown"};
 
+                 
         ctx.fill();
         ctx.closePath();
       }
